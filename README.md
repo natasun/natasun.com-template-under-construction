@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Modern Under Construction Template
+
+A beautiful and modern under construction template built with Next.js and Material UI. This template provides 12 different layouts with unique designs, animations, and features.
+
+## Features
+
+- 12 Unique Layout Designs with distinct countdown timer styles
+- Fully Responsive
+- Modern Animations with Framer Motion
+- Social Media Integration
+- Customizable Countdown Timer with 12 variants
+- Easy to Customize
+- Well Documented
+- Multi-Browser Support
+- Header Navigation
+- Footer with Branding
 
 ## Getting Started
 
-First, run the development server:
-
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/natasun/natasun.com-template-under-construction.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## Customization
 
-To learn more about Next.js, take a look at the following resources:
+### Basic Customization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Edit the `defaultProps` object in `src/app/page.tsx` to customize:
+   - Title and subtitle
+   - Countdown date
+   - Social media links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Replace background images in the `public/background` directory with your own images.
 
-## Deploy on Vercel
+### Countdown Timer Variants
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The template includes 12 unique countdown timer styles:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Minimal** - Clean design with bottom border
+2. **Gradient** - Gradient background with blur effect
+3. **Glass** - Glassmorphism effect with backdrop filter
+4. **Neon** - Glowing neon effect
+5. **Timeline** - Connected timeline style
+6. **Card** - Card-based design with hover effects
+7. **Split** - Split design with diagonal gradient
+8. **Diagonal** - Design with diagonal clipped corners
+9. **Default** - Simple, clean design
+10. **Geometric** - Polygon shapes with layered effects
+11. **Circular** - Circular design with pulsing animations
+12. **Wave** - Fluid wave-inspired design
+
+### Using a Single Layout
+
+1. Open `src/app/page.tsx`
+2. Remove or comment out the `LayoutSwitcher` component
+3. Set the `currentLayout` state to your preferred layout number (1-12)
+
+## Pages
+
+- **Home Page** - Showcases all layouts and features
+- **Layouts Page** - Gallery of all available layouts
+- **Documentation** - Comprehensive usage instructions
+- **Layout Preview** - Individual layout previews
+
+## Components
+
+- **Header** - Navigation between pages and purchase button
+- **Footer** - Branding and copyright information
+- **CountdownTimer** - Customizable timer with multiple variants
+- **SocialIcons** - Social media links with animations
+- **LayoutSwitcher** - UI for switching between layouts
+
+## Documentation
+
+Visit `/docs` route to view the complete documentation on how to use and customize the template.
+
+## Dependencies
+
+- Next.js
+- Material UI
+- Framer Motion
+- Iconify
+- React Countdown
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Support
+
+For support, please open an issue in the GitHub repository or contact us at info@natasun.com.
+
+## Preview
+
+Visit our demo page to see all layouts in action: [Demo Link]
+
+## Credits
+
+- Background images from Unsplash
+- Icons from Iconify
+- Animations powered by Framer Motion
+- Logo from Natasun.com
