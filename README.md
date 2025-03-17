@@ -14,6 +14,7 @@ A beautiful and modern under construction template built with Next.js and Materi
 - Multi-Browser Support
 - Header Navigation
 - Footer with Branding
+- Vercel Deployment Ready
 
 ## Getting Started
 
@@ -33,6 +34,16 @@ npm run dev
 ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Deployment
+
+This template is optimized for deployment on Vercel. The code includes proper Suspense boundaries for components using `useSearchParams()` to ensure successful static site generation.
+
+To deploy to Vercel:
+
+1. Push your code to a GitHub repository
+2. Connect your repository to Vercel
+3. Deploy with default settings
 
 ## Customization
 
